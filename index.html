@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="canonical" href="https://orromotors.com/" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Orro Motors | Smart Bus Scheduling Platform</title>
+
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Orro Motors helps transport companies manage bus schedules efficiently, track bookings, and optimize fleet operations with ease."
+    />
+    <meta
+      name="keywords"
+      content="Bus Scheduling, Fleet Management, Bus Booking, Transport Management, Orro Motors"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Orro Motors" />
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:site_name" content="Orro Motors" />
+    <meta
+      property="og:title"
+      content="Orro Motors | Smart Bus Scheduling Platform"
+    />
+    <meta
+      property="og:description"
+      content="Orro Motors helps transport companies manage bus schedules efficiently, track bookings, and optimize fleet operations with ease."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://orromotors.com" />
+    <meta property="og:image" content="https://orromotors.com/logo.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Orro Motors | Smart Bus Scheduling Platform"
+    />
+    <meta
+      name="twitter:description"
+      content="Manage bus schedules, bookings, and fleet operations efficiently with Orro Motors."
+    />
+    <meta name="twitter:image" content="https://orromotors.com/logo.png" />
+
+    <!-- JSON-LD Schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Orro Motors",
+        "url": "https://orromotors.com",
+        "logo": "https://orromotors.com/logo.png",
+        "sameAs": [
+          "https://twitter.com/orromotors",
+          "https://linkedin.com/company/orromotors",
+          "https://facebook.com/orromotors"
+        ]
+      }
+    </script>
+
+    <!-- Tailwind & Fonts -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['"Rethink Sans"', "ui-sans-serif", "system-ui"],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+
+  <body class="font-sans bg-white text-gray-900">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
